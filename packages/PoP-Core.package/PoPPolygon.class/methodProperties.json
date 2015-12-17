@@ -1,17 +1,21 @@
 {
 	"class" : {
-		"newOfGroup:" : "LW 12/17/2015 15:12" },
+		"newOfGroup:" : "LW 12/17/2015 15:12",
+		"newOfGroup:atPosition:" : "LW 12/17/2015 16:25" },
 	"instance" : {
-		"becomeHappy" : "LW 12/17/2015 15:18",
-		"becomeSad" : "LW 12/17/2015 15:17",
-		"blink" : "LW 12/17/2015 15:34",
-		"changeIcon:" : "LW 12/17/2015 15:15",
-		"closeEyes" : "LW 12/17/2015 15:33",
-		"emotion" : "LW 12/17/2015 14:28",
-		"emotion:" : "LW 12/17/2015 14:28",
+		"becomeHappy" : "LW 12/17/2015 16:13",
+		"becomeSad" : "LW 12/17/2015 16:13",
+		"blink" : "LW 12/17/2015 16:34",
+		"changeIcon:" : "LW 12/17/2015 16:21",
+		"closeEyes" : "LW 12/17/2015 16:13",
+		"delete" : "LW 12/17/2015 16:33",
+		"die" : "LW 12/17/2015 16:29",
 		"group" : "LW 12/17/2015 14:28",
 		"group:" : "LW 12/17/2015 15:15",
 		"initialize" : "LW 12/17/2015 15:29",
+		"isBlue" : "LW 12/17/2015 16:13",
+		"isDead" : "LW 12/17/2015 16:32",
+		"isDead:" : "LW 12/17/2015 16:32",
 		"isHappy" : "LW 12/17/2015 15:20",
 		"isHappy:" : "LW 12/17/2015 15:20",
-		"openEyes" : "LW 12/17/2015 15:32" } }
+		"openEyes" : "LW 12/17/2015 16:13" } }
