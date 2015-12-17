@@ -4,12 +4,14 @@
 	"instance" : {
 		"becomeHappy" : "LW 12/17/2015 15:18",
 		"becomeSad" : "LW 12/17/2015 15:17",
-		"blink" : "LW 12/17/2015 15:21",
+		"blink" : "LW 12/17/2015 15:34",
 		"changeIcon:" : "LW 12/17/2015 15:15",
+		"closeEyes" : "LW 12/17/2015 15:33",
 		"group" : "LW 12/17/2015 14:28",
 		"group:" : "LW 12/17/2015 15:15",
-		"initialize" : "LW 12/17/2015 15:11",
+		"initialize" : "LW 12/17/2015 15:29",
 		"isHappy" : "LW 12/17/2015 15:20",
 		"isHappy:" : "LW 12/17/2015 15:20",
+		"openEyes" : "LW 12/17/2015 15:32",
 		"shape" : "LW 12/17/2015 14:28",
 		"shape:" : "LW 12/17/2015 14:28" } }

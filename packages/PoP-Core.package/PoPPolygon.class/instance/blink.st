@@ -1,10 +1,10 @@
 accessing
 blink
 
-	| imgPath |
+
 	isHappy 
 		ifTrue: [
-			(self group == #blue) 
-				ifTrue: [ imgPath := './squeak-parable/images/yay_square_blink.png' ];
-				ifFalse: [ imgPath := './squeak-parable/images/yay_triangle_blink.png' ].
-			self changeIcon: imgPath ].
+			self closeEyes;
+			futureSend: #openEyes at: 200 args: #() ].
+
+	self futureSend: #blink at: 15000 atRandom args: #()
