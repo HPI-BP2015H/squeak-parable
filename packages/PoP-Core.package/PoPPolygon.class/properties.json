@@ -1,0 +1,16 @@
+{
+	"category" : "PoP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emotion",
+		"shape",
+		"group" ],
+	"name" : "PoPPolygon",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }
