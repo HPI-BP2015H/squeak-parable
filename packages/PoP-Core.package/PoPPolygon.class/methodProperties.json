@@ -1,11 +1,15 @@
 {
 	"class" : {
-		"newOfGroup:" : "LW 12/17/2015 14:29" },
+		"newOfGroup:" : "LW 12/17/2015 15:12" },
 	"instance" : {
-		"emotion" : "LW 12/17/2015 14:28",
-		"emotion:" : "LW 12/17/2015 14:28",
+		"becomeHappy" : "LW 12/17/2015 15:18",
+		"becomeSad" : "LW 12/17/2015 15:17",
+		"blink" : "LW 12/17/2015 15:21",
+		"changeIcon:" : "LW 12/17/2015 15:15",
 		"group" : "LW 12/17/2015 14:28",
-		"group:" : "LW 12/17/2015 14:28",
-		"initialize" : "LW 12/17/2015 14:29",
+		"group:" : "LW 12/17/2015 15:15",
+		"initialize" : "LW 12/17/2015 15:11",
+		"isHappy" : "LW 12/17/2015 15:20",
+		"isHappy:" : "LW 12/17/2015 15:20",
 		"shape" : "LW 12/17/2015 14:28",
 		"shape:" : "LW 12/17/2015 14:28" } }
