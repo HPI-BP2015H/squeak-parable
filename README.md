@@ -2,8 +2,6 @@
 [![Build Status](https://travis-ci.org/HPI-BP2015H/squeak-parable.png?branch=master)](https://travis-ci.org/HPI-BP2015H/squeak-parable)
 
 
-https://travis-ci.org/#
-
 ## Setup
 
 1. Download the Squeak 5.0 image + VM @ http://ftp.squeak.org/5.0/Squeak-5.0-All-in-One.zip
@@ -25,6 +23,15 @@ repository: 'github://dalehenrich/metacello-work:configuration'; get.
 configuration: 'MetacelloPreview';
 version: #'stable';
 repository: 'github://dalehenrich/metacello-work:configuration'; load. `
+
+2a. (optional)
+
+'Do' 
+`Metacello new
+  baseline: 'AutoTDD';
+  repository: 'github://HPI-SWA-Teaching/AutoTDD:master/packages';
+  onConflict: [:ex | ex allow];
+  load`
 
 3. in your Squeak 5.app in `Contents/Resources` (or wherever you want) do `git clone https://github.com/HPI-BP2015H/squeak-parable.git` (this repo)
 4. to be continued
