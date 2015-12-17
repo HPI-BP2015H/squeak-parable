@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"shape",
 		"group",
 		"isHappy" ],
 	"name" : "PoPPolygon",

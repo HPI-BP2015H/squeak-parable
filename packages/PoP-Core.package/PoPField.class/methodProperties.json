@@ -1,7 +1,11 @@
 {
 	"class" : {
-		"newSquareWithSize:" : "LW 12/17/2015 14:26" },
+		"defaultFieldSize" : "CW 12/17/2015 15:41",
+		"newSquareWithSize:" : "CW 12/17/2015 15:43" },
 	"instance" : {
-		"initialize" : "LW 12/17/2015 14:16",
+		"createPolygons" : "CW 12/17/2015 15:45",
+		"fieldCount" : "CW 12/17/2015 15:38",
+		"fieldCount:" : "CW 12/17/2015 15:38",
+		"initialize" : "CW 12/17/2015 15:45",
 		"polygons" : "LW 12/17/2015 14:08",
 		"polygons:" : "LW 12/17/2015 14:08" } }
