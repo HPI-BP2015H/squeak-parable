@@ -1,5 +1,8 @@
-# squeak-parable [![Build Status](https://travis-ci.org//HPI-BP2015H/squeak-parable.png?branch=master)](https://travis-ci.org/HPI-BP2015H/squeak-parable)
+# squeak-parable 
+[![Build Status](https://travis-ci.org/HPI-BP2015H/squeak-parable.png?branch=master)](https://travis-ci.org/HPI-BP2015H/squeak-parable)
 
+
+https://travis-ci.org/#
 
 ## Setup
 
