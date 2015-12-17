@@ -11,4 +11,4 @@ os:
 
 env:
   global:
-    - BASELINE=BaselineOfPop
+    - BASELINE=PoP
