@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"defaultFieldSize" : "CW 12/17/2015 15:41",
+		"defaultTileSize" : "CW 1/4/2016 13:39",
 		"newSquareWithSize:" : "CW 1/4/2016 11:45" },
 	"instance" : {
-		"createPolygons" : "CW 12/17/2015 15:45",
-		"initialize" : "CW 1/4/2016 11:44",
+		"createPolygonWithGroup:atTile:" : "CW 1/4/2016 14:17",
+		"createPolygons" : "CW 1/4/2016 14:20",
+		"initialize" : "CW 1/4/2016 13:09",
+		"move:ToTileAt:" : "CW 1/4/2016 14:08",
 		"polygons" : "LW 12/17/2015 14:08",
 		"polygons:" : "LW 12/17/2015 14:08",
 		"tileCount" : "CW 1/4/2016 11:44",
-		"tileCount:" : "CW 1/4/2016 11:44" } }
+		"tileCount:" : "CW 1/4/2016 11:44",
+		"tileMatrix" : "CW 1/4/2016 12:53" } }

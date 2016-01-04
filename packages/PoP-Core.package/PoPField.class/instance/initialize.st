@@ -1,6 +1,7 @@
-initialization
+as yet unclassified
 initialize
 	
 	super initialize.
-	self extent: (tileCount * PoPField defaultFieldSize) @ (tileCount * PoPField defaultFieldSize);
-		createPolygons
+	self extent: (tileCount * PoPField defaultTileSize) @ (tileCount * PoPField defaultTileSize).
+	tileMatrix := Matrix new: tileCount.
+	self createPolygons.

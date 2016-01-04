@@ -1,5 +1,0 @@
-constant
-defaultFieldSize
-
- ^50
-		

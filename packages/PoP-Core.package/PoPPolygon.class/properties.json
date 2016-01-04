@@ -8,7 +8,8 @@
 	"instvars" : [
 		"group",
 		"isHappy",
-		"isDead" ],
+		"isDead",
+		"tile" ],
 	"name" : "PoPPolygon",
 	"pools" : [
 		 ],
