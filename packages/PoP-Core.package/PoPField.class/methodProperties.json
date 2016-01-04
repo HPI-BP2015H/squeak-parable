@@ -6,6 +6,7 @@
 		"acceptDroppingMorph:event:" : "LW 1/4/2016 15:14",
 		"createPolygonWithGroup:atTile:" : "LW 1/4/2016 14:38",
 		"createPolygons" : "CW 1/4/2016 14:20",
+		"doesTileExists:" : "SK 1/4/2016 14:58",
 		"initialize" : "CW 1/4/2016 13:09",
 		"move:toTileAt:" : "LW 1/4/2016 15:14",
 		"polygons" : "LW 12/17/2015 14:08",

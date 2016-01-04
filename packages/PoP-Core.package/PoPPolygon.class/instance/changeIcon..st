@@ -1,4 +1,4 @@
-as yet unclassified
+display
 changeIcon: aPath
 
 	self image: 
