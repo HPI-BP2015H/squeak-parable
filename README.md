@@ -7,22 +7,34 @@
 1. Download the Squeak 5.0 image + VM @ http://ftp.squeak.org/5.0/Squeak-5.0-All-in-One.zip
 2. 'Do' the following code to install the tools needed for gitHub support
 
-`Installer ss3
-project: 'FileTree';
-install: 'ConfigurationOfFileTree'.
-((Smalltalk at: #ConfigurationOfFileTree) project version: '1.0') load.
-(Smalltalk at: #Gofer) new
-url: 'http://seaside.gemtalksystems.com/ss/metacello'; package: 'ConfigurationOfMetacello';
-load.
-((Smalltalk at: #ConfigurationOfMetacello) project version: #'previewBootstrap') load.
+```Smalltalk
+"Get the Metacello configuration (for Squeak users)"
+Installer gemsource
+    project: 'metacello';
+    addPackage: 'ConfigurationOfMetacello';
+    install.
+
+"Bootstrap Metacello Preview, using mcz files (#'previewBootstrap' symbolic version"
+((Smalltalk at: #ConfigurationOfMetacello) project 
+  version: #'previewBootstrap') load.
+
+"Load the Preview version of Metacello from GitHub"
 (Smalltalk at: #Metacello) new
-configuration: 'MetacelloPreview';
-version: #'stable';
-repository: 'github://dalehenrich/metacello-work:configuration'; get.
+  configuration: 'MetacelloPreview';
+  version: #stable;
+  repository: 'github://dalehenrich/metacello-work:configuration';
+  load.
+
+"Now load latest version of Metacello"
 (Smalltalk at: #Metacello) new
-configuration: 'MetacelloPreview';
-version: #'stable';
-repository: 'github://dalehenrich/metacello-work:configuration'; load. `
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  get.
+(Smalltalk at: #Metacello) new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  load.
+```
 
 2a. (optional)
 
