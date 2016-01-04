@@ -14,4 +14,6 @@ move: aPolygon toTileAt: aPoint
 	"update tile info for poly & field"
 	aPolygon tile: aPoint.
 	self tileMatrix at: (aPoint x) at: (aPoint y) put: aPolygon.
+	aPolygon updateMood.
+	aPolygon neighbourPolygons do: [ :polygon | polygon updateMood].
 	^true

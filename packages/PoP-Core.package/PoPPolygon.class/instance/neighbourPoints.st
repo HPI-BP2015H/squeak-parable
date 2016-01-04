@@ -1,5 +1,5 @@
 neighbours
-neighbours
+neighbourPoints
 
 	| neighbours |
 
