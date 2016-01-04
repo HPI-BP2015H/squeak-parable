@@ -2,5 +2,5 @@ as yet unclassified
 initialize
 	
 	super initialize.
-	self extent: (fieldCount * PoPField defaultFieldSize) @ (fieldCount * PoPField defaultFieldSize);
+	self extent: (fieldCount * self class defaultFieldSize) @ (fieldCount * self class defaultFieldSize);
 		createPolygons
