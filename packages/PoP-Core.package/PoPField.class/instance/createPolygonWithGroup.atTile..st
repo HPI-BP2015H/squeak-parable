@@ -12,6 +12,8 @@ createPolygonWithGroup: aSymbol atTile: aPoint
 	self addMorph: newPoly.
 	self polygons add: newPoly.
 	"update tile info for poly & field"
-	newPoly tile: aPoint.
+	newPoly 
+		field: self;
+		tile: aPoint.
 	self tileMatrix at: (aPoint x) at: (aPoint y) put: newPoly.
 	^true

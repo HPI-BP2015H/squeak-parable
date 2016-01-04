@@ -9,7 +9,8 @@
 		"group",
 		"isHappy",
 		"isDead",
-		"tile" ],
+		"tile",
+		"field" ],
 	"name" : "PoPPolygon",
 	"pools" : [
 		 ],
