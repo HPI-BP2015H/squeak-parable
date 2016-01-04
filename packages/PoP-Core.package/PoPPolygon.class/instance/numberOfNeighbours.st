@@ -1,7 +1,7 @@
-tiles
+neighbours
 numberOfNeighbours
 
 	| existingNeighbours |
 	
-	existingNeighbours := self neighbours select:[:tile | self field doesTileExists: tile].
+	existingNeighbours := self neighbours select: [ :tile | self field doesTileExist: tile ].
 	^ existingNeighbours size

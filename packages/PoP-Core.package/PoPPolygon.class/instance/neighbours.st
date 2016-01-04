@@ -1,4 +1,4 @@
-tiles
+neighbours
 neighbours
 
 	| neighbours |
