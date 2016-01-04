@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"defaultFieldSize" : "CW 12/17/2015 15:41",
-		"newSquareWithSize:" : "CW 12/17/2015 15:43" },
+		"newSquareWithSize:" : "CW 1/4/2016 11:45" },
 	"instance" : {
 		"createPolygons" : "CW 12/17/2015 15:45",
-		"fieldCount" : "CW 12/17/2015 15:38",
-		"fieldCount:" : "CW 12/17/2015 15:38",
-		"initialize" : "LW 12/17/2015 19:03",
+		"initialize" : "CW 1/4/2016 11:44",
 		"polygons" : "LW 12/17/2015 14:08",
-		"polygons:" : "LW 12/17/2015 14:08" } }
+		"polygons:" : "LW 12/17/2015 14:08",
+		"tileCount" : "CW 1/4/2016 11:44",
+		"tileCount:" : "CW 1/4/2016 11:44" } }
