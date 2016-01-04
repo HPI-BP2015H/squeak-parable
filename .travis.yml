@@ -8,3 +8,6 @@ os:
 env:
   global:
     - BASELINE=PoP
+before_script:
+  - d=${SMALLTALK_CI_BUILD}/squeak-parable/
+  - test -d "$d" || mkdir -p "$d" && cp -R images "$d"
