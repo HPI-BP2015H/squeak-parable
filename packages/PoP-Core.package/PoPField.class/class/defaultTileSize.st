@@ -1,4 +1,4 @@
-as yet unclassified
+constant
 defaultTileSize
 
  ^100

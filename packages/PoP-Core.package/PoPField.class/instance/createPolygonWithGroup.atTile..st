@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createPolygonWithGroup: aSymbol atTile: aPoint
 
 	"returns if creation successful"
