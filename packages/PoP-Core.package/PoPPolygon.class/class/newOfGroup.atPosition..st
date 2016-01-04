@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newOfGroup: aSymbol atPosition: aPoint
 
 	^ self new

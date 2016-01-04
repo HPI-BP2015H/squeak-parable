@@ -1,9 +1,9 @@
-accessing
+initialization
 initialize 
 
 	super initialize.
 	self 
-		addFlexShell
+		"addFlexShell"
 		isDead: false;
 		isHappy: true;
 		futureSend: #blink at: 15000 atRandom args: #()

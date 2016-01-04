@@ -1,4 +1,4 @@
-as yet unclassified
+constant
 defaultFieldSize
 
  ^50

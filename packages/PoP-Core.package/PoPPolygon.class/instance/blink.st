@@ -1,4 +1,4 @@
-accessing
+display
 blink
 
 	isHappy 
