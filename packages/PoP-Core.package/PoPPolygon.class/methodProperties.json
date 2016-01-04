@@ -17,6 +17,7 @@
 		"field:" : "LW 1/4/2016 14:38",
 		"group" : "LW 12/17/2015 14:28",
 		"group:" : "LW 12/17/2015 15:15",
+		"handlesMouseDown:" : "LW 1/4/2016 15:50",
 		"initialize" : "CW 1/4/2016 13:58",
 		"isBlue" : "LW 12/17/2015 16:13",
 		"isDead" : "LW 1/4/2016 11:38",
@@ -24,6 +25,7 @@
 		"isHappy" : "LW 1/4/2016 11:38",
 		"isHappy:" : "LW 12/17/2015 15:20",
 		"leftTile" : "SK 1/4/2016 15:00",
+		"mouseDown:" : "LW 1/4/2016 15:48",
 		"neighbours" : "SK 1/4/2016 15:19",
 		"numberOfNeighbours" : "SK 1/4/2016 15:23",
 		"openEyes" : "LW 12/17/2015 16:13",
@@ -32,4 +34,5 @@
 		"tile:" : "CW 1/4/2016 13:40",
 		"topLeftTile" : "SK 1/4/2016 15:02",
 		"topRightTile" : "SK 1/4/2016 15:02",
-		"topTile" : "SK 1/4/2016 14:57" } }
+		"topTile" : "SK 1/4/2016 14:57",
+		"wantsToBeDroppedInto:" : "LW 1/4/2016 15:38" } }
