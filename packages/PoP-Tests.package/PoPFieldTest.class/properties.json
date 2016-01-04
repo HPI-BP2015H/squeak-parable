@@ -1,0 +1,15 @@
+{
+	"category" : "PoP-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"field",
+		"polygon" ],
+	"name" : "PoPFieldTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
