@@ -6,6 +6,7 @@ move: aPolygon toTileAt: aPoint
 	"remove polygon from old tile"
 	aPolygon tile ifNotNil:
 		[self tileMatrix at: (aPolygon tile x) at: (aPolygon tile y) put: nil].
+	aPolygon neighbourPolygons do: [ :polygon | polygon updateMood].
 		"check if tile occupied"
 	(self tileMatrix at: (aPoint x) at: (aPoint y)) 
 		ifNotNil: [^false].
