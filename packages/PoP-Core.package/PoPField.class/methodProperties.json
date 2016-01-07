@@ -4,7 +4,7 @@
 		"newSquareWithSize:" : "CW 1/4/2016 11:45" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LW 1/4/2016 15:14",
-		"createAllPolygonsOfType:" : "SK 1/7/2016 10:56",
+		"createAllPolygonsOfType:" : "jc 1/7/2016 16:43",
 		"createEmptyTileAtCoordinates:" : "SK 1/7/2016 10:20",
 		"createPolygonWithGroup:atTile:" : "SK 1/7/2016 10:59",
 		"createPolygons" : "LW 1/7/2016 10:27",
