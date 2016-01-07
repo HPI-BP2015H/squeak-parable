@@ -5,5 +5,5 @@ createAllPolygonsOfType: aSymbol
 	polygonsToCreate := (self randomPercentageOfPolygons / 2) floor.
 	counter := 0.
 	[ polygonsToCreate < counter ] whileFalse: [
-		(self createPolygonWithGroup: aSymbol atTile: self randomCoordinate) ifTrue: [counter := counter + 1] ]
+		(self createPolygonWithGroup: aSymbol atCoordinates: self randomCoordinate) ifTrue: [counter := counter + 1] ]
 		

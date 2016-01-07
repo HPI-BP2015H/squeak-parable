@@ -1,4 +1,4 @@
 accessing
-field: anObject
+field: aPoPField
 
-	field := anObject
+	field := aPoPField

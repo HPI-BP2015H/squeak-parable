@@ -1,12 +1,12 @@
 initialization
-createPolygonWithGroup: aSymbol atTile: aPoint
-
+createPolygonWithGroup: aSymbol atCoordinates: aPoint
 	"returns if creation successful"
-	|newPoly|
+	| newPoly |
+	
 	"check if tile occupied"
 	(self tileMatrix at: (aPoint x) at: (aPoint y)) polygon 
 		ifNotNil: [^false].
-	"move Polygon"
+	
 	newPoly:=PoPPolygon newOfGroup: aSymbol 
 							atPosition: self position + (aPoint-1) * PoPField defaultTileSize.
 	self addMorph: newPoly.

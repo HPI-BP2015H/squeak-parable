@@ -1,4 +1,4 @@
-as yet unclassified
+mood
 becomeHappy
 
 	| imgPath |

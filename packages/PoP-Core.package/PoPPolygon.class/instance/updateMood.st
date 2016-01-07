@@ -1,4 +1,4 @@
-as yet unclassified
+mood
 updateMood
 
 	(self numberOfNeighbours = 0 or: [self numberNeighboursOfSameType = self numberOfNeighbours]) ifTrue: [^ self becomeMeh].

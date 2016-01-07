@@ -1,4 +1,4 @@
 accessing
-polygon: anObject
+polygon: aPoPPolygon
 
-	polygon := anObject
+	polygon := aPoPPolygon
