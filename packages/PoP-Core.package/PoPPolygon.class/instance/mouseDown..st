@@ -1,5 +1,10 @@
 as yet unclassified
 mouseDown: anEvent
-	"Attach avatar to anEvent hand for drag and drop and put focus on respective minion."
+	"dragNdrop"
 	
+	"remove polygon from old tile"
+	(self field tileMatrix at: (self tile x) at: (self tile y)) polygon: nil.
+	self neighbourPolygons do: [ :polygon | polygon updateMood].
+	
+	"grab dat shit"
 	anEvent hand grabMorph: self.

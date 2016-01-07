@@ -13,5 +13,5 @@
 	"name" : "PoPField",
 	"pools" : [
 		 ],
-	"super" : "PasteUpMorph",
+	"super" : "Morph",
 	"type" : "normal" }

@@ -2,12 +2,8 @@ as yet unclassified
 move: aPolygon toTileAt: aPoint
 
 	"returns if movement successful"
-	
-	"remove polygon from old tile"
-	aPolygon tile ifNotNil:
-		[(self tileMatrix at: (aPolygon tile x) at: (aPolygon tile y)) polygon: nil].
-	aPolygon neighbourPolygons do: [ :polygon | polygon updateMood].
-		"check if tile occupied"
+
+	"check if tile occupied"
 	(self tileMatrix at: (aPoint x) at: (aPoint y)) polygon
 		ifNotNil: [^false].
 	"move Polygon"
