@@ -1,5 +1,4 @@
 as yet unclassified
 handlesMouseDown: anEvent
-	"falsch rum"
 
-	^ self isHappy 
+	^ self isHappy not 

@@ -8,11 +8,14 @@
 	"instvars" : [
 		"group",
 		"isHappy",
-		"isDead",
+		"isWiggling",
 		"tile",
-		"field" ],
+		"field",
+		"imageMorph",
+		"remainingBlinkTime",
+		"wiggleOffset" ],
 	"name" : "PoPPolygon",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "TransformationMorph",
 	"type" : "normal" }

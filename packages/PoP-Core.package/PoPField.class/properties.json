@@ -8,7 +8,8 @@
 	"instvars" : [
 		"polygons",
 		"tileCount",
-		"tileMatrix" ],
+		"tileMatrix",
+		"polyImages" ],
 	"name" : "PoPField",
 	"pools" : [
 		 ],

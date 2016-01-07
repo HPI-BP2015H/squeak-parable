@@ -1,0 +1,4 @@
+display
+startWiggling
+
+	isWiggling := true

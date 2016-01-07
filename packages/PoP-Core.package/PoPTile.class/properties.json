@@ -12,5 +12,5 @@
 	"name" : "PoPTile",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "Object",
 	"type" : "normal" }

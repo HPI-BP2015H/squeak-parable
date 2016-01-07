@@ -1,5 +1,5 @@
 display
-changeIcon: aPath
-
-	self image: 
-		(ImageReadWriter formFromFileNamed: aPath)
+changeIcon: aSymbol
+	
+	self imageMorph image: 
+		(self field imageFor: aSymbol)

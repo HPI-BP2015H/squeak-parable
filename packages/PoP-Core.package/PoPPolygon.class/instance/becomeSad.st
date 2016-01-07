@@ -1,9 +1,8 @@
 mood
 becomeSad
 
-	| imgPath |
 	self isHappy: false.
+	self startWiggling.
 	self isBlue
-		ifTrue: [ imgPath := './squeak-parable/images/sad_square.png' ];
-		ifFalse: [ imgPath := './squeak-parable/images/sad_triangle.png' ].
-	self changeIcon: imgPath
+		ifTrue: [ self changeIcon: #sqrSad ];
+		ifFalse: [ self changeIcon: #triSad ].

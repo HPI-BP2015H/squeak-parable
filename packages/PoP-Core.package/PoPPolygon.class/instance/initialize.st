@@ -2,9 +2,12 @@ initialization
 initialize 
 
 	super initialize.
+	remainingBlinkTime := 0.
+	isWiggling := false.
+	wiggleOffset := 2000 atRandom.
+	
 	self 
-		"addFlexShell"
-		isDead: false;
-		becomeHappy
-		"futureSend: #blink at: 15000 atRandom args: #()"
-		
+		imageMorph: ImageMorph new;
+		startStepping.
+	self imageMorph position: self imageMorph position - (50@90).
+	self offset: self position.
