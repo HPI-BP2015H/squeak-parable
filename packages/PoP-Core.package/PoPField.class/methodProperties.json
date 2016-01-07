@@ -4,9 +4,10 @@
 		"newSquareWithSize:" : "CW 1/4/2016 11:45" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "LW 1/4/2016 15:14",
+		"createAllPolygonsOfType:" : "LW 1/7/2016 10:39",
 		"createEmptyTile" : "LW 1/4/2016 16:28",
 		"createPolygonWithGroup:atTile:" : "LW 1/4/2016 16:30",
-		"createPolygons" : "LW 1/7/2016 09:55",
+		"createPolygons" : "LW 1/7/2016 10:27",
 		"createTiles" : "LW 1/7/2016 09:55",
 		"doesTileExist:" : "SK 1/4/2016 15:41",
 		"initialize" : "LW 1/4/2016 16:25",
@@ -16,6 +17,8 @@
 		"percentageOfPolygonsFillingField" : "LW 1/4/2016 16:16",
 		"polygons" : "LW 12/17/2015 14:08",
 		"polygons:" : "LW 12/17/2015 14:08",
+		"randomCoordinate" : "LW 1/7/2016 10:22",
+		"randomPercentageOfPolygons" : "LW 1/7/2016 10:40",
 		"tileCount" : "CW 1/4/2016 11:44",
 		"tileCount:" : "CW 1/4/2016 11:44",
 		"tileMatrix" : "CW 1/4/2016 12:53" } }
