@@ -4,7 +4,7 @@ createPolygonWithGroup: aSymbol atTile: aPoint
 	"returns if creation successful"
 	|newPoly|
 	"check if tile occupied"
-	(self tileMatrix at: (aPoint x) at: (aPoint y)) 
+	(self tileMatrix at: (aPoint x) at: (aPoint y)) polygon 
 		ifNotNil: [^false].
 	"move Polygon"
 	newPoly:=PoPPolygon newOfGroup: aSymbol 
@@ -15,5 +15,5 @@ createPolygonWithGroup: aSymbol atTile: aPoint
 	newPoly 
 		field: self;
 		tile: aPoint.
-	self tileMatrix at: (aPoint x) at: (aPoint y) put: newPoly.
+	(self tileMatrix at: (aPoint x) at: (aPoint y)) polygon: newPoly.
 	^true

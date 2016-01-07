@@ -5,6 +5,6 @@ initialize
 	self 
 		"addFlexShell"
 		isDead: false;
-		isHappy: true
+		becomeHappy
 		"futureSend: #blink at: 15000 atRandom args: #()"
 		

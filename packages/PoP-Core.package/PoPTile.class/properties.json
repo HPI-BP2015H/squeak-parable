@@ -1,0 +1,15 @@
+{
+	"category" : "PoP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"polygon",
+		"field" ],
+	"name" : "PoPTile",
+	"pools" : [
+		 ],
+	"super" : "RectangleMorph",
+	"type" : "normal" }
