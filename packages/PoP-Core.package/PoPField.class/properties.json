@@ -9,7 +9,9 @@
 		"polygons",
 		"tileCount",
 		"tileMatrix",
-		"polyImages" ],
+		"polyImages",
+		"minEqualRatio",
+		"maxEqualRatio" ],
 	"name" : "PoPField",
 	"pools" : [
 		 ],

@@ -4,8 +4,7 @@ initialize
 	super initialize.
 	remainingBlinkTime := 0.
 	isWiggling := false.
-	wiggleOffset := 2000 atRandom.
-	
+	wiggleOffset := 2000 atRandom.	
 	self 
 		imageMorph: ImageMorph new;
 		startStepping.

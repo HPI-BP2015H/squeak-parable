@@ -1,0 +1,4 @@
+accessing
+minEqualRatio
+
+	^ minEqualRatio

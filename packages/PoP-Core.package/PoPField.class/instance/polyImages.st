@@ -1,0 +1,4 @@
+accessing
+polyImages
+
+	^ polyImages

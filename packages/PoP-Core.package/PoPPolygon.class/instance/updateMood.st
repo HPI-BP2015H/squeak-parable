@@ -1,5 +1,14 @@
 mood
 updateMood
 
-	(self numberOfNeighbours = 0 or: [self numberNeighboursOfSameType = self numberOfNeighbours]) ifTrue: [^ self becomeMeh].
-	(self numberNeighboursOfSameType / self numberOfNeighbours) > 0.33 ifTrue: [self becomeHappy] ifFalse: [self becomeSad]
+	"no adjacent polygons different -> meh (unless i want diversity[maxEqualRatio < 1])
+	sufficient ratio of equals and unequals -> happy
+	otherwise -> unhappy"
+	
+	(self numberNeighboursOfSameType = self numberOfNeighbours & self field maxEqualRatio = 1)
+		ifTrue: [^ self becomeMeh].
+				
+	(self equalNeighbourRatio between: self field minEqualRatio and: self field maxEqualRatio)
+			ifTrue: [^self becomeHappy].
+	
+	self becomeSad.
