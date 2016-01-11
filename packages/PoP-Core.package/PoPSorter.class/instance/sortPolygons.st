@@ -1,12 +1,11 @@
 as yet unclassified
 sortPolygons
 
-	| unhappyPolygons aPolygon |
+	| sadPolygons |
 	
-	unhappyPolygons := self getUnhappyPolygons.
+	sadPolygons := OrderedCollection new.
 	[
-	  aPolygon := (unhappyPolygons at: (unhappyPolygons size atRandom)).
-	  self movePolygonToEmptyTile: aPolygon.
-	  unhappyPolygons := self getUnhappyPolygons
-		] doWhileFalse: [unhappyPolygons size = 0].
+	  sadPolygons do: [:each| self movePolygonToEmptyTile: each].
+	  sadPolygons := self polygons select: [:each| each isHappy not]
+		] doWhileTrue: [sadPolygons size > 0].
 	self stopSorting
