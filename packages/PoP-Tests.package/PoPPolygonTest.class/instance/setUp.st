@@ -1,4 +1,5 @@
 running
 setUp
 	super setUp.
-	self polygon: PoPPolygon new.
+	self field: (PoPField newSquareWithSize: 5).
+	self polygon: field polygons first.

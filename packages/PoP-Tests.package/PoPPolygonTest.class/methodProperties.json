@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"field" : "LW 1/11/2016 12:54",
+		"field:" : "LW 1/11/2016 12:54",
 		"polygon" : "SK 1/4/2016 13:20",
 		"polygon:" : "SK 1/4/2016 13:20",
-		"setUp" : "SK 1/4/2016 13:20",
+		"setUp" : "LW 1/11/2016 12:55",
 		"testSetHappy" : "SK 1/4/2016 13:20",
 		"testSetSad" : "SK 1/4/2016 13:20" } }
