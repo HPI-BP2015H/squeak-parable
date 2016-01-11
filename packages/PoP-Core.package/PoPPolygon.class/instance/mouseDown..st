@@ -7,5 +7,9 @@ mouseDown: anEvent
 	self neighbourPolygons do: [ :polygon | polygon updateMood].
 	self setWigglePointToMousePosition: (anEvent position).
 	"grab dat shit"
-	anEvent hand grabMorph: self.
+	anEvent hand grabMorph: (
+		Morph new
+			color: Color transparent;
+			addMorph: self;
+			yourself).
 	self isGrabbed: true.

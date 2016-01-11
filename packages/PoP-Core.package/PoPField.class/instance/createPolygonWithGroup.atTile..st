@@ -5,9 +5,8 @@ createPolygonWithGroup: aSymbol atTile: aTile
 	
 	"check if tile occupied"
 	aTile polygon ifNotNil: [^false].
-	
 	newPolygon := PoPPolygon newOfGroup: aSymbol 
-							atPosition: self position + (aTile coordinates-1) * PoPField defaultTileSize.
+							atPosition: self position + ((aTile coordinates-1) * PoPField defaultTileSize).
 	self addMorph: newPolygon.
 	self polygons add: newPolygon.
 	
