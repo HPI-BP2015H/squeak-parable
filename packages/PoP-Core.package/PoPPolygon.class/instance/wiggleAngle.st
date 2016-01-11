@@ -1,6 +1,8 @@
 as yet unclassified
 wiggleAngle
 	
-	^ 10 degreesToRadians
+	isGrabbed 
+		ifTrue: [^ 30 degreesToRadians]
+		ifFalse:[^10 degreesToRadians]
 
 	

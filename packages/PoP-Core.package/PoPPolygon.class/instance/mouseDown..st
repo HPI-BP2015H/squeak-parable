@@ -8,3 +8,4 @@ mouseDown: anEvent
 	
 	"grab dat shit"
 	anEvent hand grabMorph: self.
+	self isGrabbed: true.

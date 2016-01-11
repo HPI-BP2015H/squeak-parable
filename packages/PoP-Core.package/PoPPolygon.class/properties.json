@@ -13,7 +13,8 @@
 		"field",
 		"imageMorph",
 		"remainingBlinkTime",
-		"wiggleOffset" ],
+		"wiggleOffset",
+		"isGrabbed" ],
 	"name" : "PoPPolygon",
 	"pools" : [
 		 ],

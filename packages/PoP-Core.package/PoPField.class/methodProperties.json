@@ -3,7 +3,7 @@
 		"defaultTileSize" : "CW 1/4/2016 13:39",
 		"newSquareWithSize:" : "CW 1/4/2016 11:45" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "CW 1/7/2016 19:52",
+		"acceptDroppingMorph:event:" : "CW 1/11/2016 13:57",
 		"createAllPolygonsOfType:" : "jc 1/7/2016 16:43",
 		"createEmptyTile" : "LW 1/4/2016 16:28",
 		"createEmptyTileAtCoordinates:" : "SK 1/7/2016 10:20",
