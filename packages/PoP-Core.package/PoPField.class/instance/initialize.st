@@ -11,4 +11,5 @@ initialize
 	self fillPolyImages;
 		beSticky;
 		createTiles;
-		createPolygons.
+		createPolygons;
+		createSorter

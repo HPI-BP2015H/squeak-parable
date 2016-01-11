@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newForField:" : "LW 1/11/2016 13:25" },
+	"instance" : {
+		"doButtonAction" : "LW 1/11/2016 13:17",
+		"field" : "LW 1/11/2016 13:15",
+		"field:" : "LW 1/11/2016 13:15",
+		"initialize" : "LW 1/11/2016 13:26",
+		"polygons" : "LW 1/11/2016 13:23",
+		"polygons:" : "LW 1/11/2016 13:23",
+		"sortPolygons" : "LW 1/11/2016 13:27",
+		"sorting" : "LW 1/11/2016 13:15",
+		"sorting:" : "LW 1/11/2016 13:15",
+		"startSorting" : "LW 1/11/2016 13:28",
+		"stopSorting" : "LW 1/11/2016 13:19" } }

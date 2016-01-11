@@ -6,15 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"field",
 		"polygons",
-		"tileCount",
-		"tileMatrix",
-		"polyImages",
-		"minEqualRatio",
-		"maxEqualRatio",
-		"sorter" ],
-	"name" : "PoPField",
+		"sorting" ],
+	"name" : "PoPSorter",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SimpleButtonMorph",
 	"type" : "normal" }
