@@ -1,9 +1,8 @@
 as yet unclassified
-aboutToBeDropped
+resetPosture
 
 	self 
 		stopWiggling;
 		setWigglePointToDefault;
 		angle: 0;
-		isGrabbed: false.
-	self field addMorph: self
+		isGrabbed: false

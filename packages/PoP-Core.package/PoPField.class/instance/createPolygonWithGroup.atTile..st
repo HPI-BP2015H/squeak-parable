@@ -12,7 +12,7 @@ createPolygonWithGroup: aSymbol atTile: aTile
 	
 	newPolygon 
 		field: self;
-		tile: aTile coordinates.
+		tile: aTile.
 	aTile polygon: newPolygon.
 	
 	^true

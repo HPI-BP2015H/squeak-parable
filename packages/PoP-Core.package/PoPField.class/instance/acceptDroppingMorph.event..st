@@ -1,6 +1,7 @@
 as yet unclassified
 acceptDroppingMorph: aPolygon event: anEvent
 
+	|destinationTile|
 	(aPolygon isKindOf: PoPPolygon)
 		ifFalse: [
 			self handleDropMorph: (anEvent setPosition: anEvent position 
@@ -8,7 +9,9 @@ acceptDroppingMorph: aPolygon event: anEvent
 											hand: anEvent hand).
 			^false].
 	
-	aPolygon aboutToBeDropped.
-	(self move: aPolygon toTileAt: ((anEvent position - self position / PoPField defaultTileSize) floor + (1@1)))
-		ifFalse: [
-			self move: aPolygon toTileAt: aPolygon tile]
+	aPolygon resetPosture.
+	self addMorph: aPolygon.
+	destinationTile := (self tileAtGloabalPosition: anEvent position).
+	destinationTile isEmpty
+		ifTrue: [ self movePolygon: aPolygon toTile: destinationTile]
+		ifFalse: [self movePolygon: aPolygon toTile: aPolygon tile].

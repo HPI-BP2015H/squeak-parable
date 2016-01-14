@@ -2,4 +2,4 @@ display
 changeIcon: aSymbol
 	
 	self imageMorph image: 
-		(self field imageFor: aSymbol)
+		(self class polyImages at: aSymbol)
