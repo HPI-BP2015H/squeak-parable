@@ -1,4 +1,5 @@
 accessing
-tile: anObject
+tile: aTile
 
-	tile := anObject
+	tile := aTile.
+	tile polygon: self
