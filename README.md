@@ -46,4 +46,5 @@ Installer gemsource
   load`
 
 3. in your Squeak 5.app in `Contents/Resources` (or wherever you want) do `git clone https://github.com/HPI-BP2015H/squeak-parable.git` (this repo)
-4. to be continued
+4. open Monticello Browser and add the FileTree Repository in the folder squeak-parable/packages
+5. open the Repository and load all the packages into your system - DONE!
