@@ -1,0 +1,14 @@
+{
+	"category" : "PoP-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contentFrame" ],
+	"name" : "PoPApp",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

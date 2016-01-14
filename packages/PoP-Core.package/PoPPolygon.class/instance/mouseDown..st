@@ -6,9 +6,5 @@ mouseDown: anEvent
 	self leaveTile.
 	self setWigglePointToMousePosition: (anEvent position).
 	"grab dat shit"
-	anEvent hand grabMorph: (
-		Morph new
-			color: Color transparent;
-			addMorph: self;
-			yourself).
+	anEvent hand grabMorph: self.
 	self isGrabbed: true.

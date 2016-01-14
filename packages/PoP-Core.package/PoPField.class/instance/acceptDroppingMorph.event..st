@@ -2,12 +2,6 @@ as yet unclassified
 acceptDroppingMorph: aPolygon event: anEvent
 
 	|destinationTile|
-	(aPolygon isKindOf: PoPPolygon)
-		ifFalse: [
-			self handleDropMorph: (anEvent setPosition: anEvent position 
-											contents: aPolygon submorphs first 
-											hand: anEvent hand).
-			^false].
 	
 	aPolygon resetPosture.
 	self addMorph: aPolygon.
