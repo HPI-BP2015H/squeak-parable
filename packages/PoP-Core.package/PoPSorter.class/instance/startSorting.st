@@ -4,5 +4,5 @@ startSorting
 	self 
 		color: Color red;
 		label: 'Stop Sorting';
-		sorting: true;
-		sortPolygons
+		sorting: true.
+		(self getUnhappyPolygons isEmpty) ifFalse: self sortPolygons

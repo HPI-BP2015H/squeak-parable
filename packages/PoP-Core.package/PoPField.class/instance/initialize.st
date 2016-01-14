@@ -8,7 +8,7 @@ initialize
 	tileMatrix := Matrix new: tileCount.
 	self enableDrop: true.
 	self color: Color gray. 
-	self fillPolyImages;
+	self 
 		beSticky;
 		createTiles;
 		createPolygons;

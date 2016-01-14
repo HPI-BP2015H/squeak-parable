@@ -1,7 +1,7 @@
 {
 	"category" : "PoP-Core",
 	"classinstvars" : [
-		 ],
+		"polyImages" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -9,7 +9,6 @@
 		"polygons",
 		"tileCount",
 		"tileMatrix",
-		"polyImages",
 		"minEqualRatio",
 		"maxEqualRatio",
 		"sorter" ],
