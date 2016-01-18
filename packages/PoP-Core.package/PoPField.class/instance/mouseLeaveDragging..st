@@ -7,5 +7,4 @@ mouseLeaveDragging: anEvent
 			draggedMorph := anEvent hand submorphs first.].
 	
  	(draggedMorph isKindOf: PoPPolygon) ifTrue: [
-		"anEvent hand dropMorphs."
-		draggedMorph slideBackToFormerSituation: nil]
+		draggedMorph returnToFormerTile ]

@@ -12,7 +12,9 @@
 		"minEqualRatio",
 		"maxEqualRatio",
 		"sorter",
-		"toolbar" ],
+		"density",
+		"triangleSquareRatio",
+		"tileSize" ],
 	"name" : "PoPField",
 	"pools" : [
 		 ],

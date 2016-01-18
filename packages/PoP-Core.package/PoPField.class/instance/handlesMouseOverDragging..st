@@ -1,4 +1,4 @@
 as yet unclassified
-handlesMouseOverDragging: anEvemt
+handlesMouseOverDragging: anEvent
 
-^true
+	^true
