@@ -1,5 +1,5 @@
 constant
 defaultTileSize
 
- ^100
+ ^115
 		

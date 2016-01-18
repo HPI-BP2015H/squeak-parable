@@ -3,8 +3,7 @@ initialize
 
 	super initialize.
 	self setUpScrollPane;
-		fillContent.
+		fillContent
 		
-	self bounds: (Rectangle origin: 50@50 extent: 1000@1000)
 
 	

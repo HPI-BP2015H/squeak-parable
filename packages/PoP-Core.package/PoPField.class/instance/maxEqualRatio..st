@@ -1,4 +1,5 @@
 accessing
 maxEqualRatio: anObject
 
-	maxEqualRatio := anObject
+	maxEqualRatio := anObject. 
+	self updateMoodOfPolygons.

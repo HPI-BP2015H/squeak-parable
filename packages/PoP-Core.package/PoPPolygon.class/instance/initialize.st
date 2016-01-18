@@ -6,7 +6,8 @@ initialize
 	isWiggling := false.
 	wiggleOffset := 200 atRandom.	
 	isGrabbed:=false.
-	self 
+	self  
 		imageMorph: ImageMorph new;
+		becomeHappy;
 		setWigglePointToDefault;
 		startStepping

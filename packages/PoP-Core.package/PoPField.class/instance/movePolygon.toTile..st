@@ -6,7 +6,7 @@ movePolygon: aPolygon toTile: aTile
 	"check if tile occupied"
 	aTile polygon ifNotNil: [^false].
 	"move Polygon"
-	aPolygon position: self position + ((aTile coordinates-1) * PoPField defaultTileSize).
+	aPolygon center: self position + ((aTile coordinates-1) * PoPField defaultTileSize) + (1/2 * PoPField defaultTileSize) .
 	"remove me from old tile. may be done before by mousedown but we do it anyway"
 	aPolygon leaveTile.
 	"update tile info for poly & field"

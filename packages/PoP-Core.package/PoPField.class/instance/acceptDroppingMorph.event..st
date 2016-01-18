@@ -5,7 +5,7 @@ acceptDroppingMorph: aPolygon event: anEvent
 	
 	aPolygon resetPosture.
 	self addMorph: aPolygon.
-	destinationTile := (self tileAtGloabalPosition: anEvent position).
+	destinationTile := (self tileAtGlobalPosition: anEvent position).
 	destinationTile isEmpty
 		ifTrue: [ self movePolygon: aPolygon toTile: destinationTile]
 		ifFalse: [self movePolygon: aPolygon toTile: aPolygon tile].

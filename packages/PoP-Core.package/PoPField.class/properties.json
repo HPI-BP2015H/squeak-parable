@@ -11,7 +11,8 @@
 		"tileMatrix",
 		"minEqualRatio",
 		"maxEqualRatio",
-		"sorter" ],
+		"sorter",
+		"toolbar" ],
 	"name" : "PoPField",
 	"pools" : [
 		 ],

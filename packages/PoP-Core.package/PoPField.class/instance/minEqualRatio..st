@@ -1,4 +1,5 @@
 accessing
 minEqualRatio: anObject
 
-	minEqualRatio := anObject
+	minEqualRatio := anObject.
+	self updateMoodOfPolygons

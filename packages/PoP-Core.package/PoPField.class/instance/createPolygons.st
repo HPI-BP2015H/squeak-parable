@@ -5,5 +5,5 @@ createPolygons
 	self 
 		createAllPolygonsOfType: #blue;
 		createAllPolygonsOfType: #yellow.
-	self polygons do: [ :polygon | polygon updateMood ]
+	self updateMoodOfPolygons
 	 
