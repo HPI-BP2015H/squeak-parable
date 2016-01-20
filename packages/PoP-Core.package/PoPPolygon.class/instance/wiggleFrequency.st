@@ -1,9 +1,9 @@
 as yet unclassified
 wiggleFrequency
-	"0.9 seconds in milliseconds"
+	"0.55 seconds in milliseconds"
 
 	isGrabbed 
 		ifTrue: [^ 550]
-		ifFalse:[^1000]
+		ifFalse:[^1600]
 
 	

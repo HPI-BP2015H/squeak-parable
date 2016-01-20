@@ -1,5 +1,5 @@
 accessing
 tile: aTile
-
-	tile := aTile.
-	tile polygon: self
+	
+	tile := (aTile polygon: self).
+	self updateWiggleOffset.

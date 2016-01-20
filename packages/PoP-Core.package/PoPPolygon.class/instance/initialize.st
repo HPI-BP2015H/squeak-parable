@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	remainingBlinkTime := 0.
 	isWiggling := false.
-	wiggleOffset := 200 atRandom.	
+	wiggleOffset := 0.	
 	isGrabbed:=false.
 	self  
 		imageMorph: ImageMorph new;

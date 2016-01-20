@@ -1,7 +1,6 @@
 as yet unclassified
 movePolygon: aPolygon toTile: aTile
 
-	aTile polygon: aPolygon.
 	aPolygon 
 		center: (self centerOfTile: aTile);
 		leaveTile; 

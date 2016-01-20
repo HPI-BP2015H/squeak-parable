@@ -4,5 +4,5 @@ doButtonAction
 	super doButtonAction.
 	sorting 
 		ifTrue: [ self stopSorting ] 
-		ifFalse: [ self startSorting ].
+		ifFalse: [ [self startSorting] fork ].
 	
