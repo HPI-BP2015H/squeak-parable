@@ -1,7 +1,7 @@
 initialization
 fillContent
 
-	| morphs field1 |
+	| morphs field1 customField|
 	
 	morphs:= OrderedCollection new.
 	field1 := (PoPField newSquareWithSideLength: 20 andTileSize: 50).

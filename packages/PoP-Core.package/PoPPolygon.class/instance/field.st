@@ -1,4 +1,4 @@
 accessing
 field
 
-	^ field
+	^ field ifNil: [PoPField basicNew]

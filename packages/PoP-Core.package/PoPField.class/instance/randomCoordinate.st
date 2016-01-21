@@ -1,4 +1,4 @@
 as yet unclassified
 randomCoordinate
 
-	^ ((self tileCount atRandom) @  (self tileCount atRandom))
+	^ ((self rows atRandom) @  (self columns atRandom))

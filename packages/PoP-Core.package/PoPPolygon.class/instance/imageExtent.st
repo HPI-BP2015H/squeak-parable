@@ -1,4 +1,4 @@
 as yet unclassified
 imageExtent
 
-	^(self field tileExent * 0.9)
+	^(self field tileExtent * 0.9)

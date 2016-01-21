@@ -1,4 +1,4 @@
 as yet unclassified
 updateExtent
 
-	self extent: (tileCount * self tileExent) 
+	self extent: (self fieldDimensions * self tileExtent) 

@@ -1,4 +1,4 @@
 as yet unclassified
 randomTile
 
-	^ self tileMatrix at: (self tileCount atRandom) at: (self tileCount atRandom)
+	^ self tileMatrix at: (self rows atRandom) at: (self columns atRandom)

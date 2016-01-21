@@ -1,4 +1,4 @@
 as yet unclassified
 numberOfTiles
 
-	^ self tileCount squared
+	^ self rows * self columns

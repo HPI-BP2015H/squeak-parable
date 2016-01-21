@@ -1,4 +1,4 @@
 accessing
-tileExent
+tileExtent
 
 	^ self tileSize asPoint

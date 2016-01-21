@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"rows",
+		"columns",
 		"polygons",
-		"tileCount",
 		"tileMatrix",
 		"minEqualRatio",
 		"maxEqualRatio",

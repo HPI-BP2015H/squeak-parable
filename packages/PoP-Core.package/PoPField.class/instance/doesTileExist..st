@@ -1,4 +1,6 @@
 as yet unclassified
 doesTileExist: aPoint
 
-	^ aPoint x > 0 and: [aPoint y > 0] and: [aPoint x <= self tileCount]  and: [aPoint y <= self tileCount]
+	^ ((aPoint x > 0) & (aPoint y > 0) & 
+		(aPoint x <= self rows) & 
+		(aPoint y <=  self columns))

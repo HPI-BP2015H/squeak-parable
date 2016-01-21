@@ -1,11 +1,7 @@
 initialization
 createTiles
 	
-	| x |
-	x:= 1 to: self tileCount.
-	x do: [ :i |
-		x do: [ :j | 
-			self tileMatrix at: i at: j put: (self createEmptyTileAtCoordinates: (Point x: i y: j)) 
-			]
-		 ]
+	1 to: self rows do: [ :x |
+		1 to: self columns do: [ :y | 
+			self tileMatrix at: x at: y put: (self createEmptyTileAtCoordinates: (Point x: x y: y)) ] ]
 	

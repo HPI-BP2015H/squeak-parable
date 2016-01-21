@@ -3,7 +3,7 @@ eyeStatusUpdate
 
 	(remainingBlinkTime = 0)
 		ifTrue: [
-			(42 = self ifThisReturns42ThePolygonBlinks)
+			self eyeIsItching
 				ifTrue: [
 					self closeEyes.
 					remainingBlinkTime := 200 / self stepTime]]
