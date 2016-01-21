@@ -1,4 +1,0 @@
-geometry
-innerBounds
-
-	^ super innerBounds

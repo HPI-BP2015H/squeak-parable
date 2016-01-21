@@ -1,8 +1,7 @@
-as yet unclassified
+accessing
 wiggleAngle
 	
-	isGrabbed 
-		ifTrue: [^ 30 degreesToRadians]
-		ifFalse:[^10 degreesToRadians]
-
+ ^ self isGrabbed 
+		ifTrue: [wiggleAngle * 3]
+		ifFalse:[wiggleAngle]
 	

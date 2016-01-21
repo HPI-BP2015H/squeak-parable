@@ -14,9 +14,12 @@
 		"imageMorph",
 		"remainingBlinkTime",
 		"wiggleOffset",
-		"isGrabbed" ],
+		"isGrabbed",
+		"transformationMorph",
+		"wiggleAngle",
+		"wiggleDuration" ],
 	"name" : "PoPPolygon",
 	"pools" : [
 		 ],
-	"super" : "TransformationMorph",
+	"super" : "Morph",
 	"type" : "normal" }

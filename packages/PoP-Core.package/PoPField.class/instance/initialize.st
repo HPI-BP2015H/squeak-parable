@@ -4,9 +4,9 @@ initialize
 	super initialize.
 	
 	minEqualRatio := 0.3.
-	maxEqualRatio := 0.8.
-	density := 0.9.
-	triangleSquareRatio := 0.2.
+	maxEqualRatio := 1.0.
+	density := 0.5.
+	triangleSquareRatio := 0.5.
 	tileMatrix := Matrix new: tileCount.
 	polygons := OrderedCollection new.
 	self tileSize: self class defaultTileSize.
@@ -16,4 +16,5 @@ initialize
 		beSticky;
 		createTiles;
 		createPolygons;
-		createSorter
+		createSorter;
+		clipSubmorphs: true

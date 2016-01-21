@@ -1,4 +1,4 @@
-event handling
+as yet unclassified
 handlesMouseOver: anEvent
 	"falsch rum"
 

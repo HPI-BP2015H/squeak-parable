@@ -1,5 +1,6 @@
 as yet unclassified
 setWigglePointToMousePosition: aPoint
 
-	self imageMorph position: (self position - aPoint).
-	self offset: (self position - aPoint).
+	self transformationMorph angle:0.
+	self imageMorph position: (self transformationMorph position - aPoint).
+	self transformationMorph center: self center.

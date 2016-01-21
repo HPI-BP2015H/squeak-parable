@@ -1,9 +1,9 @@
 instance creation
-newSquareWithSideLength: aNumberOfTilesPerRow andTileSize: aTileSize
+newSquareWithSideLength: aNumberOfTilesPerRow andTileSize: aNumber
 
 	^ self basicNew
 		tileCount: aNumberOfTilesPerRow;
 		initialize;
-		tileSize: aTileSize;
+		tileSize: aNumber;
 		yourself
 		

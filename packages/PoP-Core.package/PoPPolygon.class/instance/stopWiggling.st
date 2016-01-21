@@ -1,4 +1,5 @@
 display
 stopWiggling
 
-	isWiggling := false
+	isWiggling := false.
+	self transformationMorph angle: 0.
