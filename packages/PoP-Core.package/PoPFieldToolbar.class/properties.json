@@ -7,8 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"field",
-		"minEqualRatioSlider",
-		"maxEqualRatioSlider" ],
+		"sorting",
+		"resetButton",
+		"sortButton" ],
 	"name" : "PoPFieldToolbar",
 	"pools" : [
 		 ],

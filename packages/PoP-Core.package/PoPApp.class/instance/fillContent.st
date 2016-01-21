@@ -1,19 +1,20 @@
 initialization
 fillContent
 
-	| morphs field1 fieldAndBar |
+	| morphs fieldAndBar1 |
 	
 	morphs:= OrderedCollection new.
 	
-	fieldAndBar := OrderedCollection new.
-	fieldAndBar add: (PoPField newSquareWithSideLength: 5).
-	fieldAndBar add: (PoPFieldToolbar newForField: fieldAndBar first).
+	fieldAndBar1 := OrderedCollection new.
+	fieldAndBar1 add: (PoPField newSquareWithSideLength: 5) createPolygons.
+	fieldAndBar1 add: (PoPFieldToolbar newForField: fieldAndBar1 first) 
+		addSortButton addResetButton addMinEqualRatioTextfield addMaxEqualRatioTextfield.
 	
-	morphs add: (AlignmentMorph inARow: fieldAndBar).
 	
-	field1 := (PoPField newSquareWithSideLength: 20 andTileSize: 50) createPolygons.
-	morphs add: field1.
-	morphs add: (PoPField newSquareWithSideLength: 5).
+	morphs add: (AlignmentMorph inARow: fieldAndBar1).
+	
+	morphs add: (PoPField newRectangleWithDimensions: 20@25 andTileSize: 30) createPolygons.
+	morphs add: (PoPField newSquareWithSideLength: 5) createPolygons.
 	
 	self contentFrame addMorph: (AlignmentMorph inAColumn: morphs)
 

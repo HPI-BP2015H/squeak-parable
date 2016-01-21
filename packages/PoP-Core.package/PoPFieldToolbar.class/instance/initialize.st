@@ -1,8 +1,8 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
-	"self minEqualRatioSlider: (Slider on: self field getValue: #minEqualRatio setValue: #minEqualRatio: min: 0 max: 1 quantum: 0.1).
-	self addMorph: self minEqualRatioSlider."
-	self extent: 300@self field extent y.
-	self createButtons.
+	self 
+		extent: (200@self field extent y);
+		sorting: false;
+		color: Color gray.
