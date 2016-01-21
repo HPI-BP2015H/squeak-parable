@@ -1,4 +1,4 @@
-halos and balloon help
+as yet unclassified
 transferHalo: event from: formerHaloOwner
 	"Overridden and specialized for our weird renderer - halo - dance"
 	| localEvt w |

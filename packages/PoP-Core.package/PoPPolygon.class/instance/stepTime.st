@@ -1,4 +1,4 @@
-stepping and presenter
+as yet unclassified
 stepTime
 	
 	^50

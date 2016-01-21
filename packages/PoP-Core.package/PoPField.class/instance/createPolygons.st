@@ -1,4 +1,4 @@
-initialization
+polygons
 createPolygons
 
 	self tileMatrix asOrderedCollection do: [:tile|

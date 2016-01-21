@@ -12,7 +12,6 @@
 		"tileMatrix",
 		"minEqualRatio",
 		"maxEqualRatio",
-		"sorter",
 		"density",
 		"triangleSquareRatio",
 		"tileSize" ],

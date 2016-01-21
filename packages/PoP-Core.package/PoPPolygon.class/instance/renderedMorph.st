@@ -1,4 +1,4 @@
-classification
+as yet unclassified
 renderedMorph
 
 	^ self

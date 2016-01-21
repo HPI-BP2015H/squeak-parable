@@ -5,13 +5,10 @@
 		"doButtonAction" : "LW 1/21/2016 10:46",
 		"field" : "LW 1/11/2016 13:15",
 		"field:" : "LW 1/11/2016 13:15",
-		"initialize" : "LW 1/11/2016 13:26",
+		"initialize" : "CW 1/21/2016 16:41",
 		"movePolygonToEmptyTile:" : "LW 1/21/2016 10:54",
-		"polygons" : "LW 1/11/2016 13:23",
-		"polygons:" : "LW 1/11/2016 13:23",
-		"sortPolygons" : "LW 1/21/2016 10:48",
+		"sortPolygons" : "CW 1/21/2016 16:42",
 		"sorting" : "LW 1/11/2016 13:15",
 		"sorting:" : "LW 1/11/2016 13:15",
-		"startSorting" : "LW 1/21/2016 10:57",
-		"stopSorting" : "LW 1/11/2016 13:19",
-		"unhappyPolygons" : "LW 1/21/2016 10:56" } }
+		"startSorting" : "CW 1/21/2016 16:38",
+		"stopSorting" : "LW 1/11/2016 13:19" } }

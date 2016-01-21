@@ -1,4 +1,4 @@
-halos and balloon help
+as yet unclassified
 wantsHaloFromClick
 	"For being able to click on the PoPPolygon itself directly."
 

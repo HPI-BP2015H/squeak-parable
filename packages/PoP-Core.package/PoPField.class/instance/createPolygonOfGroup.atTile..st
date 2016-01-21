@@ -1,4 +1,4 @@
-initialization
+polygons
 createPolygonOfGroup: aSymbol atTile: aTile
 
 	| newPolygon |
