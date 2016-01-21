@@ -1,5 +1,5 @@
 running
 setUp
 	super setUp.
-	self field: (PoPField newSquareWithSideLength: 5).
-	self polygon: field polygons first.
+	self field: (PoPField newSquareWithSideLength: 5) createPolygons.
+	self polygon: self field polygons first.
