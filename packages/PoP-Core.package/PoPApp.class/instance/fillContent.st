@@ -9,6 +9,6 @@ fillContent
 	morphs add: (PoPFieldToolbar newForField: field1).
 	morphs add: (PoPField newSquareWithSideLength: 5).
 	
-	self contentFrame addMorph: (AlignmentMorph inAColumn: morphs).
+	self contentFrame addMorph: (AlignmentMorph inAColumn: morphs)
 
 	

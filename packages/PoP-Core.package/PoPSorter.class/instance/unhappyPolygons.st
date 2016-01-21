@@ -1,5 +1,5 @@
-as yet unclassified
-getUnhappyPolygons
+sorting
+unhappyPolygons
 
 	| unhappyPolygons |
 	unhappyPolygons := OrderedCollection new.

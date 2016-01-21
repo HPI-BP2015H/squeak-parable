@@ -2,7 +2,7 @@ as yet unclassified
 doButtonAction
 
 	super doButtonAction.
-	sorting 
+	self sorting 
 		ifTrue: [ self stopSorting ] 
-		ifFalse: [ [self startSorting] fork ].
+		ifFalse: [ [self startSorting] fork ]
 	

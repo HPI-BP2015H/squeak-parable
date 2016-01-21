@@ -5,5 +5,5 @@ movePolygon: aPolygon toTile: aTile
 		center: (self centerOfTile: aTile);
 		leaveTile; 
 		tile: aTile;
-		updateMood.
-	aPolygon neighbourPolygons do: [ :polygon | polygon updateMood].
+		updateMood;
+		updateMoodOfNeighbors

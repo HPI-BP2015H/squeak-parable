@@ -3,8 +3,8 @@ mouseLeaveDragging: anEvent
 
 	| draggedMorph |
 	
-	anEvent hand submorphs ifNotEmpty: [
-			draggedMorph := anEvent hand submorphs first.].
+	anEvent hand submorphs 
+		ifNotEmpty: [draggedMorph := anEvent hand submorphs first].
 	
- 	(draggedMorph isKindOf: PoPPolygon) ifTrue: [
-		draggedMorph returnToFormerTile ]
+ 	(draggedMorph isKindOf: PoPPolygon) 
+		ifTrue: [draggedMorph returnToFormerTile]

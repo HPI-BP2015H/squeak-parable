@@ -1,5 +1,5 @@
 instance creation
 new
 		
-	^ self newSquareWithSize: 5
+	^ self newSquareWithSideLength: 5
 		
