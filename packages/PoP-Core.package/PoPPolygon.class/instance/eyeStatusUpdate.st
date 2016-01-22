@@ -1,4 +1,4 @@
-display
+animation
 eyeStatusUpdate
 
 	(remainingBlinkTime = 0)

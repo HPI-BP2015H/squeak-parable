@@ -1,4 +1,4 @@
-display
+animation
 stopWiggling
 
 	isWiggling := false.

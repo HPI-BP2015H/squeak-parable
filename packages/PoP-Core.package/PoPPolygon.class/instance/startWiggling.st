@@ -1,4 +1,4 @@
-display
+animation
 startWiggling
 
 	isWiggling := true

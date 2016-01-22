@@ -1,4 +1,4 @@
 dropping/grabbing
 handlesMouseDown: anEvent
 
-	^ self isHappy not 
+	^ self isHappy not

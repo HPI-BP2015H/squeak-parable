@@ -4,9 +4,8 @@
 	"instance" : {
 		"addItem:" : "CW 1/21/2016 22:14",
 		"addItem:after:" : "CW 1/21/2016 22:15",
-		"addMaxEqualRatioTextfield" : "CW 1/21/2016 22:22",
-		"addMinEqualRatioTextfield" : "CW 1/21/2016 22:23",
 		"addResetButton" : "CW 1/21/2016 21:50",
+		"addSliderFor:" : "CW 1/22/2016 15:54",
 		"addSortButton" : "CW 1/21/2016 20:58",
 		"field" : "CW 1/18/2016 12:28",
 		"field:" : "CW 1/18/2016 12:28",
@@ -22,5 +21,4 @@
 		"sorting" : "CW 1/21/2016 20:15",
 		"sorting:" : "CW 1/21/2016 20:15",
 		"startSorting" : "CW 1/21/2016 20:37",
-		"stopSorting" : "CW 1/21/2016 20:37",
-		"wantsKeyboardFocusFor:" : "CW 1/21/2016 22:10" } }
+		"stopSorting" : "CW 1/21/2016 20:37" } }

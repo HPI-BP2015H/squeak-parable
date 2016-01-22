@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 eyeIsItching
 	
 	| stepsBetweenBlinks averageSecondsToBlink chanceToBlinkPerStep |

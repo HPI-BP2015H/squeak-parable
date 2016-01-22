@@ -1,4 +1,4 @@
-display
+animation
 openEyes
 
 	self updateMood.

@@ -1,4 +1,4 @@
-as yet unclassified
+neighbours
 updateMoodOfNeighbors
 
 	self neighbourPolygons do: [ :polygon | polygon updateMood]

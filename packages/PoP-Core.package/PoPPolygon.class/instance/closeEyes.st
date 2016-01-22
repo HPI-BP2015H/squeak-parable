@@ -1,4 +1,4 @@
-display
+animation
 closeEyes
 
 	self isBlue

@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 setWigglePointToMousePosition: aPoint
 
 	self transformationMorph angle:0.

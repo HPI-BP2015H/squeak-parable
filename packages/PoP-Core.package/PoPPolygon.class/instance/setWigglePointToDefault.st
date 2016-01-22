@@ -1,4 +1,4 @@
-as yet unclassified
+animation
 setWigglePointToDefault
 	
 	self transformationMorph angle: 0.
