@@ -1,4 +1,4 @@
-mood
+as yet unclassified
 updatePosition
 	self 
 		resetPosture; 

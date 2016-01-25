@@ -1,4 +1,4 @@
-display
+as yet unclassified
 changeIcon: aSymbol
 	
 	self imageMorph image: 

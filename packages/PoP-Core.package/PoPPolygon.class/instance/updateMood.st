@@ -7,4 +7,4 @@ updateMood
 	self sufficientRatioOfSameAndDifferentNeighbours
 		ifTrue: [^self becomeHappy].
 	
-	self becomeSad.
+	self becomeSad

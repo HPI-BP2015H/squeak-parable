@@ -2,5 +2,5 @@ sorting
 movePolygonToEmptyTile: aPolygon
 	
 	aPolygon 
-		resetPosture;
+		"resetPosture;"
 		moveToTile: self field randomEmptyTile
