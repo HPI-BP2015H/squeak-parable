@@ -7,5 +7,5 @@ createPolygonOfGroup: aSymbol atTile: aTile
 	self addMorph: newPolygon.
 	self polygons add: newPolygon.
 	newPolygon
-		tile: aTile;
+		bindToTile: aTile;
 		center: (self centerOfTile: aTile).

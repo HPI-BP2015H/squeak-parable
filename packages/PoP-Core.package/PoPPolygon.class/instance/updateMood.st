@@ -1,7 +1,7 @@
 mood
 updateMood
 	
-	(self noAdjacentPolygonIsDifferent & self wantDiversity)
+	(self allNeighboursAreLikeMe & self wantDiversity)
 		ifTrue: [^self becomeMeh].
 				
 	self sufficientRatioOfSameAndDifferentNeighbours

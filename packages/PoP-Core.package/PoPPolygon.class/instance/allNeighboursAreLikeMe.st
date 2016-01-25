@@ -1,4 +1,4 @@
 mood
-noAdjacentPolygonIsDifferent
+allNeighboursAreLikeMe
 
 	^(self numberNeighboursOfSameType = self numberOfNeighbours)
