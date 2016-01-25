@@ -8,6 +8,4 @@ addSortButton
 			target: self;
 			actionSelector: #sortButtonHit.
 		
- 	self addItem: self sortButton.
-
-	
+ 	self addItem: self sortButton

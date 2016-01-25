@@ -8,7 +8,6 @@ addResetButton
 			target: self;
 			actionSelector: #resetButtonHit.
 		
-	self addItem: self resetButton.
-			
+	self addItem: self resetButton
 
 	

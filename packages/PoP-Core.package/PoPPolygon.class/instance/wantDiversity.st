@@ -1,4 +1,4 @@
 mood
 wantDiversity
 
-	^(self field maxEqualRatio = 1)
+	^ self field maxEqualRatio = 1

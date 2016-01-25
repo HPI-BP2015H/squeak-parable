@@ -1,4 +1,4 @@
 mood
 allNeighboursAreLikeMe
 
-	^(self numberNeighboursOfSameType = self numberOfNeighbours)
+	^ self numberNeighboursOfSameType = self numberOfNeighbours

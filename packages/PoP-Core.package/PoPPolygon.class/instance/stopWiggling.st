@@ -2,4 +2,4 @@ animation
 stopWiggling
 
 	isWiggling := false.
-	self transformationMorph angle: 0.
+	self transformationMorph angle: 0

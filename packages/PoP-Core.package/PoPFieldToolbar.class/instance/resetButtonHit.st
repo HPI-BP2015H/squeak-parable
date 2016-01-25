@@ -2,4 +2,4 @@ callbacks
 resetButtonHit
 	
 	self sorting: false.
-	self field removePolygons createPolygons.
+	self field removePolygons createPolygons

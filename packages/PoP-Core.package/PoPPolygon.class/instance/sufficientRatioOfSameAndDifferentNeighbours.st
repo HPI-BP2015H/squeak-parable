@@ -1,4 +1,4 @@
 mood
 sufficientRatioOfSameAndDifferentNeighbours
 
-	^(self equalNeighbourRatio between: self field minEqualRatio and: self field maxEqualRatio)
+	^ self equalNeighbourRatio between: self field minEqualRatio and: self field maxEqualRatio

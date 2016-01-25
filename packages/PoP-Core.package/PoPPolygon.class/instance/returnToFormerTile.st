@@ -3,4 +3,4 @@ returnToFormerTile
 
 	self resetPosture.
 	self field addMorph: self.
-	self moveToTile: self tile.
+	self moveToTile: self tile

@@ -1,4 +1,4 @@
 tiles
 leftTile
 
-	^ self tile coordinates + (Point x:-1 y:0)
+	^ self tile coordinates + (-1@0)

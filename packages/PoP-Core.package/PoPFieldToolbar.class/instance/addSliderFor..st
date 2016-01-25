@@ -27,6 +27,5 @@ addSliderFor: aSymbol
 	self 
 		addItem: simpleStringMorph;
 		addItem: updatingStringMorph after: simpleStringMorph;
-		addItem: slider.
-
+		addItem: slider
 	

@@ -2,8 +2,8 @@ initialization
 setInitialValues
 
 	self 
-		extent: (self field tileExtent *1.0); 
-		color: Color blue;
+		extent: (self field tileExtent *1.5); 
+		color: Color transparent;
 		clipSubmorphs: true.
 	remainingBlinkTime := 0.
 	isWiggling := false.

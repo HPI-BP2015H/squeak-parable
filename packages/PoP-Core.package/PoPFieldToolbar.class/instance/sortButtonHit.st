@@ -2,5 +2,5 @@ callbacks
 sortButtonHit
 	
 	self sorting 
-		ifTrue: [ self stopSorting ] 
-		ifFalse: [ [self startSorting] fork ]
+		ifTrue: [self stopSorting] 
+		ifFalse: [[self startSorting] fork]

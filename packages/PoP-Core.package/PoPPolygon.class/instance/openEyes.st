@@ -1,4 +1,4 @@
 animation
 openEyes
 
-	self updateMood.
+	self updateMood

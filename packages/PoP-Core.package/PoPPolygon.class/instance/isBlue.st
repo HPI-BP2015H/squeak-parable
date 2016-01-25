@@ -1,4 +1,4 @@
 as yet unclassified
 isBlue
 
-	^ self group == #blue
+	^ self group = #blue

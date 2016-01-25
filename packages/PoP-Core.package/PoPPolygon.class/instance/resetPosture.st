@@ -4,6 +4,4 @@ resetPosture
 	self 
 		stopWiggling;
 		setWigglePointToDefault;
-		isGrabbed: false.
-
-
+		isGrabbed: false

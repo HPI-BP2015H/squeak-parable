@@ -5,4 +5,4 @@ mouseDown: anEvent
 	self leaveTile.
 	self setWigglePointToMousePosition: (anEvent position).
 	anEvent hand grabMorph: self.
-	self isGrabbed: true.
+	self isGrabbed: true

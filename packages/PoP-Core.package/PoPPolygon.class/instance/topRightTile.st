@@ -1,4 +1,4 @@
 tiles
 topRightTile
 
-	^ self tile coordinates + (Point x:1 y:-1)
+	^ self tile coordinates + (1@ -1)

@@ -1,4 +1,4 @@
 neighbours
 updateMoodOfNeighbors
 
-	self neighbourPolygons do: [ :polygon | polygon updateMood]
+	self neighbourPolygons do: [:polygon | polygon updateMood]
