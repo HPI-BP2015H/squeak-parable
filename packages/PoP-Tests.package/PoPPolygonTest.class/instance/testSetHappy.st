@@ -1,4 +1,4 @@
-running
+tests
 testSetHappy
 
 	self polygon becomeHappy.

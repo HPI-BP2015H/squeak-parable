@@ -1,4 +1,4 @@
-running
+tests
 testFieldSize
 
 	self assert:(self field tileMatrix columnCount = self fieldSize).

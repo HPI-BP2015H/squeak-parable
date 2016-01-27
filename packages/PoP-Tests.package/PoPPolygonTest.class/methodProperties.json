@@ -7,11 +7,14 @@
 		"polygon" : "SK 1/4/2016 13:20",
 		"polygon:" : "SK 1/4/2016 13:20",
 		"setUp" : "LW 1/21/2016 16:54",
-		"tearDown" : "CW 1/25/2016 14:38",
+		"tearDown" : "CW 1/27/2016 11:19",
+		"testImageCache" : "CW 1/27/2016 12:51",
 		"testImageSize" : "CW 1/25/2016 15:36",
 		"testNeighbourPolygons" : "CW 1/25/2016 15:27",
 		"testReturnToOldTile" : "CW 1/25/2016 15:58",
 		"testSetHappy" : "SK 1/4/2016 13:20",
 		"testSetMeh" : "LW 1/11/2016 12:59",
 		"testSetSad" : "SK 1/4/2016 13:20",
-		"testTileBinding" : "CW 1/25/2016 15:33" } }
+		"testTileBinding" : "CW 1/25/2016 15:33",
+		"testWiggling" : "CW 1/27/2016 13:05",
+		"testWigglingOffset" : "CW 1/27/2016 13:10" } }

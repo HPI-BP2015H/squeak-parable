@@ -1,4 +1,4 @@
-as yet unclassified
+image cache
 fillPolygonImages
 
 	| pathPrefix slash|

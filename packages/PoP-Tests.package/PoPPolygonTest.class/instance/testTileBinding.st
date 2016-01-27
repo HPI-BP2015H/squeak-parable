@@ -1,4 +1,4 @@
-running
+tests
 testTileBinding
 	
 	| aTile |

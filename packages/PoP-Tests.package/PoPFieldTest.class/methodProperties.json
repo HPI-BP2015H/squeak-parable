@@ -8,9 +8,13 @@
 		"polygon" : "SK 1/4/2016 15:42",
 		"polygon:" : "SK 1/4/2016 15:42",
 		"setUp" : "LW 1/21/2016 16:54",
+		"tearDown" : "CW 1/27/2016 11:19",
 		"testCreateEmptyTile" : "LW 1/21/2016 16:50",
 		"testCreatePolygon" : "CW 1/25/2016 15:05",
-		"testCreateTiles" : "LW 1/21/2016 16:48",
+		"testCreateTiles" : "CW 1/27/2016 12:35",
 		"testFieldSize" : "SK 1/7/2016 10:14",
 		"testMovePolygonToTile" : "CW 1/25/2016 15:03",
-		"testTileExist" : "SK 1/4/2016 15:41" } }
+		"testRandomTile" : "CW 1/27/2016 12:42",
+		"testRemovePolygons" : "CW 1/27/2016 12:31",
+		"testTileExist" : "SK 1/4/2016 15:41",
+		"testTileNumber" : "CW 1/27/2016 13:12" } }

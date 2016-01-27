@@ -1,4 +1,4 @@
-running
+tests
 testTileExist
 
 	self assert: (self field doesTileExist: (Point x: 0 y: 0)) not.

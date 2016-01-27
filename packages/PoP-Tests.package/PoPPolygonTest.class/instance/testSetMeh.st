@@ -1,4 +1,4 @@
-running
+tests
 testSetMeh
 
 	self polygon becomeMeh.

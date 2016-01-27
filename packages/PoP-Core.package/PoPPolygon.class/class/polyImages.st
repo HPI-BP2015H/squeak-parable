@@ -1,4 +1,4 @@
-as yet unclassified
+image cache
 polyImages
 
 	^ polyImages ifNil: [ self fillPolygonImages ].

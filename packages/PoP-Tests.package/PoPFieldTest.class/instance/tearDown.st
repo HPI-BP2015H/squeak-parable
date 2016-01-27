@@ -6,4 +6,3 @@ tearDown
 		field: nil;
 		polygon: nil
 		
-		

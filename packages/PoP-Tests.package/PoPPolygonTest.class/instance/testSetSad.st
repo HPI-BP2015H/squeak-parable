@@ -1,4 +1,4 @@
-running
+tests
 testSetSad
 
 	self polygon becomeSad.

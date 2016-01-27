@@ -1,4 +1,4 @@
-running
+tests
 testImageSize
 
 	self polygon changeIcon: #triMeh.

@@ -1,4 +1,4 @@
-running
+tests
 testCreatePolygon
 	self field createTiles.
 	self field removePolygons.
