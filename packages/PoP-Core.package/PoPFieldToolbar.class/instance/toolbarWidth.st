@@ -1,0 +1,4 @@
+initialization
+toolbarWidth
+
+	^ 200

@@ -11,11 +11,13 @@ fillContent
 	morphs add: self text1.
 	morphs add: self field1.
 	morphs add: self text2.
+	morphs add: (self horizontalDivision).
 	morphs add: self field2.
 	morphs add: (self horizontalDivision).
 	morphs add: self field3.
-	morphs add: ((PoPFieldToolbar newForField: (morphs at: 6)) 
-		addResetButton; extent: (20@ (morphs at: 6) y)).
+	morphs add: ((PoPFieldToolbar newForField: (morphs at: 7)) 
+		extent: (200@ (morphs at: 7) y);
+		addResetButton).
 		
 	morphs add: (self horizontalDivision).
 	morphs add: ((AlignmentMorph inARow: {demoField. demoBar}) borderColor: Color white).

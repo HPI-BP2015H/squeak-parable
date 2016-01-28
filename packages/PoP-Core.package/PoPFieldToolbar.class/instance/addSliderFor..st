@@ -14,10 +14,10 @@ addSliderFor: aSymbol
 				quantum: 0.01.
 	slider 
 		value: (self field perform: aSymbol);
-		extent: 150@30.
+		extent: ((self toolbarWidth - 20)@30).
 		
 	simpleStringMorph := (StringMorph new) 
-		color: Color white;
+		color: Color black;
 		contents: aSymbol , ': ' asString.	
 			
 	updatingStringMorph := (UpdatingStringMorph on: self field selector: aSymbol) 

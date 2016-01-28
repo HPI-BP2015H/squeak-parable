@@ -4,12 +4,12 @@
 	"instance" : {
 		"addItem:" : "CW 1/25/2016 16:06",
 		"addItem:after:" : "CW 1/25/2016 16:06",
-		"addResetButton" : "CW 1/25/2016 16:05",
-		"addSliderFor:" : "CW 1/25/2016 16:05",
-		"addSortButton" : "CW 1/25/2016 16:05",
+		"addResetButton" : "LW 1/28/2016 13:07",
+		"addSliderFor:" : "LW 1/28/2016 12:58",
+		"addSortButton" : "LW 1/28/2016 13:07",
 		"field" : "CW 1/18/2016 12:28",
 		"field:" : "CW 1/18/2016 12:28",
-		"initialize" : "CW 1/25/2016 16:06",
+		"initialize" : "LW 1/28/2016 12:50",
 		"movePolygonToEmptyTile:" : "CW 1/25/2016 11:31",
 		"resetButton" : "CW 1/21/2016 20:25",
 		"resetButton:" : "CW 1/21/2016 20:25",
@@ -21,4 +21,5 @@
 		"sorting" : "CW 1/21/2016 20:15",
 		"sorting:" : "CW 1/21/2016 20:15",
 		"startSorting" : "CW 1/21/2016 20:37",
-		"stopSorting" : "CW 1/21/2016 20:37" } }
+		"stopSorting" : "CW 1/21/2016 20:37",
+		"toolbarWidth" : "LW 1/28/2016 12:55" } }
