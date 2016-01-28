@@ -11,4 +11,4 @@ field2p1
 	field createPolygonOfGroup: #yellow atCoordinates: 2@2.
 	field createPolygonOfGroup: #yellow atCoordinates: 3@3.
 	field updateMoodOfPolygons.
-	^(AlignmentMorph inAColumn: {field. self field2p1text})
+	^(AlignmentMorph inAColumn: {field. self field2p1text}) borderColor: Color white

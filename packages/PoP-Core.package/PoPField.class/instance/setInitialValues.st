@@ -12,6 +12,6 @@ setInitialValues
 		beSticky;
 		tileSize: self class defaultTileSize;
 		enableDrop: true;
-		color: Color white; 
+		color: Color transparent; 
 		clipSubmorphs: true
 	
