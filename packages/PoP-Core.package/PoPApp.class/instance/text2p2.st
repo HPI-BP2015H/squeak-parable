@@ -1,4 +1,4 @@
-as yet unclassified
+contentMorphs
 text2p2
 
 	^ (TextMorph new) contents: 

@@ -1,5 +1,5 @@
 as yet unclassified
 start
 
- 	self new openInWorld bounds: (Rectangle origin: 50@50 extent: 1200@1000)
+ 	self new openInWorld
 	

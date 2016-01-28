@@ -11,5 +11,4 @@ addResetButton
 			borderWidth: 0.
 		
 	self addItem: self resetButton
-
 	

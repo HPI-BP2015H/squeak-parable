@@ -1,4 +1,4 @@
-as yet unclassified
+contentMorphs
 field2p3
 
 	|field|
@@ -11,4 +11,4 @@ field2p3
 	field createPolygonOfGroup: #yellow atCoordinates: 2@2.
 	field createPolygonOfGroup: #yellow atCoordinates: 3@3.
 	field updateMoodOfPolygons.
-	^(AlignmentMorph inAColumn: {field. self field2p3text}) borderColor: Color white
+	^ self columnMorphFor: {field. self field2p3text}
