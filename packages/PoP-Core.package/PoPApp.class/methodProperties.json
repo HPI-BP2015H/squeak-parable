@@ -1,12 +1,18 @@
 {
 	"class" : {
-		"start" : "CW 1/21/2016 22:17" },
+		"start" : "LW 1/28/2016 10:31" },
 	"instance" : {
 		"contentFrame" : "CW 1/14/2016 16:17",
 		"contentFrame:" : "CW 1/14/2016 16:17",
 		"defaultToolbarFor:" : "LW 1/25/2016 16:35",
+		"divisionStrip" : "LW 1/28/2016 10:20",
 		"field1" : "LW 1/25/2016 16:54",
-		"fillContent" : "LW 1/25/2016 16:48",
+		"field2p1" : "LW 1/28/2016 10:22",
+		"field2p2" : "LW 1/28/2016 10:22",
+		"field2p3" : "LW 1/28/2016 10:23",
+		"fillContent" : "LW 1/28/2016 10:29",
 		"initialize" : "CW 1/18/2016 12:32",
-		"setUpScrollPane" : "CW 1/25/2016 16:12",
-		"text1" : "LW 1/25/2016 16:42" } }
+		"setUpScrollPane" : "LW 1/28/2016 10:27",
+		"text1" : "LW 1/25/2016 16:42",
+		"text2p1" : "LW 1/28/2016 10:30",
+		"text2p2" : "LW 1/28/2016 10:08" } }
