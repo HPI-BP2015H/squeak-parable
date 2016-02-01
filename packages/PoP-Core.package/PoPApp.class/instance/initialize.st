@@ -3,7 +3,8 @@ initialize
 
 	super initialize.
 	self setUpScrollPane;
-		fillContent
+		fillContent;
+		setLabel: 'Parable of the Polygons'
 		
 
 	

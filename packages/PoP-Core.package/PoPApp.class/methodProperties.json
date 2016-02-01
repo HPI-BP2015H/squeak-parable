@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"start" : "CW 1/28/2016 18:11" },
+		"start" : "CW 2/1/2016 10:33" },
 	"instance" : {
 		"columnMorphFor:" : "CW 1/28/2016 17:42",
 		"contentFrame" : "CW 1/14/2016 16:17",
@@ -15,10 +15,11 @@
 		"field2p2text" : "CW 1/28/2016 12:43",
 		"field2p3" : "CW 1/28/2016 17:43",
 		"field2p3text" : "CW 1/28/2016 12:44",
-		"field3" : "CW 1/28/2016 17:47",
-		"fillContent" : "CW 1/28/2016 18:12",
+		"field3" : "CW 2/1/2016 10:39",
+		"fillContent" : "CW 2/1/2016 10:33",
+		"fitWidth" : "CW 2/1/2016 10:35",
 		"horizontalDivision" : "CW 1/28/2016 17:54",
-		"initialize" : "CW 1/18/2016 12:32",
+		"initialize" : "CW 2/1/2016 10:38",
 		"rowMorphFor:" : "CW 1/28/2016 17:41",
 		"setUpScrollPane" : "LW 1/28/2016 10:27",
 		"text1" : "CW 1/28/2016 17:53",

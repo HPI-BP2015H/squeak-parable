@@ -1,7 +1,7 @@
 initialization
 fillContent
 
-	| morphs content demoField demoBar|
+	| morphs demoField demoBar|
 	
 	morphs:= OrderedCollection new.
 	morphs add: self text1.
@@ -21,11 +21,8 @@ fillContent
 	demoBar := self defaultToolbarFor: demoField.
 	morphs add: ((AlignmentMorph inARow: {demoField. demoBar}) borderColor: Color white).
 	
-	content := self columnMorphFor: morphs.
-	self bounds: (Rectangle origin: 50@50 extent: content extent x @1000).
-	self contentFrame addMorph: content.
+	self contentFrame addMorph: (self columnMorphFor: morphs)
 	
-	self bounds: (Rectangle origin: 50@50 extent: content extent x @1000).
 
 
 

@@ -1,5 +1,5 @@
 as yet unclassified
 start
 
- 	self new openInWorld
+ 	self new openInWorld fitWidth
 	
