@@ -2,4 +2,4 @@ tests
 testSetSad
 
 	self polygon becomeSad.
-	self assert: self polygon isHappy not
+	self assert: self polygon isHappy not not
