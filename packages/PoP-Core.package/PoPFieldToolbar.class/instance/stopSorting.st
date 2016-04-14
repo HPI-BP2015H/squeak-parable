@@ -2,7 +2,7 @@ sorting
 stopSorting
 
 	self sortButton
-		color: Color green;
-		label: 'Sort Polygons!'.
+		color: Color green.
+	self sortButton submorphs first contents: 'Sort Polygons!'.
 	
 	self sorting: false
