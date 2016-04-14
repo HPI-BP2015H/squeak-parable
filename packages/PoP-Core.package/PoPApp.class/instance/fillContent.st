@@ -5,7 +5,7 @@ fillContent
 	
 	morphs:= OrderedCollection new.
 	
-	1 to: 5 do: [ :i |
+	1 to: 7 do: [ :i |
 		morphs addAll: {
 		self perform: (#text, i) asSymbol.
 		self horizontalDivision.
