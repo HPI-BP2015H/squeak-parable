@@ -1,20 +1,20 @@
 initialization
 fillContent
 
-	| morphs demoField demoBar|
+	| morphs |
 	
 	morphs:= OrderedCollection new.
+	morphs 
+		add: self textTitle;
+		add: self textSubTitle;
+		add: self horizontalDivision.
 	
-	1 to: 7 do: [ :i |
+	1 to: 14 do: [ :i |
 		morphs addAll: {
 		self perform: (#text, i) asSymbol.
 		self horizontalDivision.
 		self perform: (#field, i) asSymbol.
 		self horizontalDivision.}].
-
-	demoField := (PoPField  newRectangleWithDimensions: 12@12 andTileSize: 68) createPolygons.
-	demoBar := self defaultToolbarFor: demoField.
-	morphs add: ((AlignmentMorph inARow: {demoField. demoBar}) borderColor: Color white).
 	
 	self contentFrame addMorph: (self columnMorphFor: morphs)
 	
