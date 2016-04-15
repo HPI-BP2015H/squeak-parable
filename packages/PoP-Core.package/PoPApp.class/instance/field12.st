@@ -1,7 +1,7 @@
 contentMorphs
 field12
 
-	| field |
+	| field image |
 	field := (PoPField  newRectangleWithDimensions: 10@2 andTileSize: 100). 
 	field minEqualRatio: 0.3.
 
@@ -12,5 +12,10 @@ field12
 	field createPolygonOfGroup: #yellow atCoordinates: 10@2.
 	
 	field updateMoodOfPolygons.
+	
+	image := PoPPolygon polyImages at: #finale.
+	image := image magnify: image boundingBox by: (field extent / image extent) smoothing: 1.
+	
+	field addMorphBack: (ImageMorph new image: image).
 	
 	^ field

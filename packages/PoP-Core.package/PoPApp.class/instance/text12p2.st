@@ -22,4 +22,5 @@ text12p2
 		text addAttribute: (colors at: i +1) from: i*2+28 to: i*2+28].	
 		
 	text allBold.
-	^ TextMorph new contents: text.
+	^ (TextMorph new contents: text)
+		beAllFont: (StrikeFont familyName: 'BitstreamVeraSans' size: 20)
